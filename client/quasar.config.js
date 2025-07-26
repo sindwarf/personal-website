@@ -189,7 +189,7 @@ export default defineConfig((/* ctx */) => {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'personal-website'
+        appId: 'Jonathan Sindorf'
       }
     },
 
