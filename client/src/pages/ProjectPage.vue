@@ -45,6 +45,11 @@ Migrated a large scale web application from Vue2 to Vue3. This involved upgradin
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'IndexPage'
+  name: 'IndexPage',
+
+  // const projectList = []
+  setup() {
+
+  }
 });
 </script>

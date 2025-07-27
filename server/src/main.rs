@@ -19,7 +19,7 @@ async fn main() {
     let app = Router::new()
         .route("/api/", get(Html("<h1>api Route</h1>")))
         .route("/api/test", get(api_test))
-        .fallback(get_service(ServeDir::new("../client/dist/spa")).handle_error(|_| async move {
+        .fallback(get_service(ServeDir::new("/var/www/html/client/spa")).handle_error(|_| async move {
             (StatusCode::INTERNAL_SERVER_ERROR, "internal server error")
         }));
 
