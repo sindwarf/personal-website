@@ -1,10 +1,9 @@
 <template>
   <q-layout view="hHh lpR fFf">
     <q-header flat >
-      <q-toolbar>
-        <q-space></q-space>
+      <q-toolbar class="flex flex-center">
 
-        <q-toolbar-title>
+        <q-toolbar-title class="flex flex-center">
           <a
             href="/#"
            >
@@ -12,8 +11,6 @@
           </a>
         </q-toolbar-title>
 
-        <div>Software Engineer</div>
-        <q-space></q-space>
       </q-toolbar>
     </q-header>
 

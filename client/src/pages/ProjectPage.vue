@@ -40,42 +40,39 @@ export default defineComponent({
   setup() {
     const projectList = ref([
       {
-        title: 'Angular and Django Web App',
-        description: `I created a small web application that used Angular as the front end and Django as the back end. It allowed for users to log in and manage users with different permission levels. Certain users could create inventory items and print off labels as PDF's from the item information. It was deployed using Gunicorn and nginx.`
-      },
-      {
         title: 'Python Library for Document Generation',
-        description: `There was a need to generate large documents in my workplace, while implementing definitions from existing documents. I wrote a library that utilized the pythondocx library to parse requirement documents and output a document in .docx format based on user input. This grew to become a markup type language that can use files like templates in several parts of the document and take in user defined styles.`
+        description: `In my previous role, I built a Python library—leveraging python-docx—to automate the creation of large, structured Word documents. It parses existing requirement files, merges in user-provided data, and outputs a fully formatted .docx based on your inputs. Over time, I expanded it into a lightweight markup language. You can inject template fragments anywhere in the document, define custom styles, and supply dynamic content blocks—turning a one-off script into a reusable, extensible document-generation engine.
+`
       },
       {
         title: 'Secturion Website',
-        description: `Migrated an existing react based web application into Next.js in order to utilize static site generation. This increased the performance of the website(based upon lighthouse in google chrome) by over 20% and allowed us to migrate to a host that costed less monthly. Additionally, I improved the SEO and mobile formats of the webpage.`,
+        description: `Migrated an existing react based web application into Next.js in order to utilize static site generation. This increased the performance of the website(based upon lighthouse in google chrome) by over 20% and allowed us to migrate to a host that costs less monthly. Additionally, I improved the SEO and mobile formats of the webpage. I continue to maintain and improve this website.`,
         link: "https://www.secturion.com/"
       },
       {
         title: 'Maintained Web Server on Embedded Hardware',
-        description: `I regularly maintain a web server that uses a c library named CivetWeb on embedded hardware. Improved the data sanitization and error checking when making queries to the Redis database. Implemented several features including a server rack identifier, and improved user permission checking.`
+        description: `I regularly maintain a web server that uses a c library named CivetWeb on embedded hardware. Improved the data sanitization and error checking when making queries to Redis. Implemented several features including a server rack identifier, and improved user permission checking.`
       },
       {
-        title: 'RVPark',
-        description: 'A web application for managing RV parks. This is a work in progress.'
+        title: 'Desert Eagle RV Park',
+        description: 'This is a project that I contributed to during my last two semesters at Weber State University. This is a full reservation system for browsing and reserving campsites at the Desert Eagle RV Park. The features are extensive including admin management for all sites, report generation, and dynamic fees. This is a work in progress and will be releasing soon.'
       }
     ]);
 
     const githubProjects = ref([
       {
         title: "E-Commerce Website",
-        description: "Tech stack", 
+        description: "Our team wanted to create a functioning retail web-portal with the goals of providing a modern and smooth shopping experience. The main components of this web-page include a Product Overview, Recommended Items, Q&A, and Ratings and Reviews. This was built using node.js with react and express.js. This was one of the first projects I was a part of and kick started my web dev experience.", 
         link: 'https://github.com/Armani-SDC/e-commerce-website',
       },
       {
         title: "This WebSite",
-        description: "Tech stack", 
+        description: "My personal website that you are viewing right now is built using Vue and axum_server. For the javascript front end in Vue I am using the Quasar for my design library. I chose to use axum_server to further deepen my knowledge of rust and utilize the performance advantage over someting like express.js.", 
         link: 'https://github.com/sindwarf/personal-website',
       },
       {
         title: "My Van Dashboard",
-        description: "What it is, tech stack", 
+        description: "This was a project I worked on to use while I travelled in a van for a few years. The intention was to create a dashboard where I could view current weather and statistics provided by my in-house electrical system. This is a web based application using React and Express.js.", 
         link: 'https://github.com/sindwarf/VanMadeDashboard',
       }
       
