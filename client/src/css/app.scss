@@ -1,1 +1,61 @@
 // app global css in SCSS form
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.github-link {
+  color: black;
+}
+
+html,body,#q-app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    // background-color: blue;
+}
+.index-page {
+    background: #444358;
+    background: radial-gradient(ellipse at center,  #444358  0%, #000000 70%);
+    background-size: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+}
+
+// .q-card {
+//   background-color: #33322D;
+//   color: white;
+// }
+
+#clock {
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    text-align: center;
+    // position: absolute;
+    // left: 50%;
+    // top: 50%;
+    // transform: translate(-50%, -50%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px #5149AD,  0 0 20px rgba(10, 175, 230, 0);
+    .time {
+        // letter-spacing: 0.05em;
+        font-size: 32px;
+        padding: 0 0 6px 0;
+      }
+      .date {
+        // letter-spacing: 0.1em;
+        font-size: 18px;
+        padding: 6px 0 0 0;
+    }
+    .text {
+        // letter-spacing: 0.1em;
+        font-size: 12px;
+        padding: 20px 0 0;
+    }
+}

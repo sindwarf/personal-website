@@ -6,7 +6,7 @@
     <q-btn to="/projects" label="Projects" />
     <q-btn href="https://www.linkedin.com/in/jonathansindorf/" label="Linked In" target="_blank" />
     <q-btn href="https://github.com/sindwarf" label="Github" target="_blank" /> -->
-      <q-page class="row items-center justify-center q-pa-md">
+  <q-page class="row items-center justify-center index-page">
 
     <q-card class="col-12 col-sm-8 col-md-6 col-lg-4 q-pa-lg">
 
